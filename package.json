@@ -24,6 +24,7 @@
     "mockjs": "^1.1.0",
     "next": "9.3.6",
     "next-images": "^1.4.0",
+    "next.js": "^1.0.3",
     "normalize.css": "^8.0.1",
     "rc-dialog": "^8.0.0",
     "react": "16.13.1",
