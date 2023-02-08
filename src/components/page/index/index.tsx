@@ -16,7 +16,7 @@ import { ReactComponent as SvgUser } from '@fonts/svg/menu/user.svg';
 import { ReactComponent as SvgBank } from '@fonts/svg/home/bank.svg';
 import { ReactComponent as SvgGithub } from '@fonts/svg/home/github.svg';
 import { ReactComponent as SvgGraduationCap } from '@fonts/svg/home/graduation-cap.svg';
-// import { ReactComponent as SvgLinks } from '@fonts/svg/home/links.svg';
+import { ReactComponent as SvgLinks } from '@fonts/svg/home/links.svg';
 import { ReactComponent as SvgMarker } from '@fonts/svg/home/marker.svg';
 
 import { ReactComponent as SvgBook } from '@fonts/svg/home/book.svg';
@@ -81,13 +81,13 @@ const baseInfo: {
       className: 'm-l-md',
     },
   },
-  // {
-  //   icon: {
-  //     component: SvgLinks,
-  //   },
-  //   links: 'http://lghayy.zcool.com.cn/',
-  //   title: 'lghayy.zcool.com.cn',
-  // },
+  {
+    icon: {
+      component: SvgLinks,
+    },
+    links: 'http://lghayy.zcool.com.cn/',
+    title: 'lghayy.zcool.com.cn',
+  },
 ];
 
 const empiricInfo = [
