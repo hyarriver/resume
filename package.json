@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/hyarriver",
   "dependencies": {
-    "@netlify/plugin-nextjs": "^4.30.4",
     "@svgr/webpack": "^5.4.0",
     "babel-loader": "^8.1.0",
     "classnames": "^2.2.6",
