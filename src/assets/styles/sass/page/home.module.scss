@@ -1,4 +1,4 @@
-@use "sass:list";
+@use 'sass:list';
 @import '../common/mixin';
 
 $rotate-deg: 215deg;
@@ -25,7 +25,8 @@ $hover-rotate-deg: 225deg;
 
 .header_wrapper {
   :global {
-    $banner-background-list: (from, 25%, 50%, 75%, to);
+    // $banner-background-list: (50%);
+    // $banner-background-list: 50%;
     .banner {
       display: table;
     }
@@ -59,15 +60,17 @@ $hover-rotate-deg: 225deg;
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
-        } @else {
-          @include each-content($banner-background-list) using ($rest...) {
-            $key: list.nth($rest, 1);
-            $index: list.index($banner-background-list, $key);
-            #{$key} {
-              background-image: url('/static/banner/bg-#{$index}.png');
-            }
-          }
         }
+        // @else {
+        //   @include each-content($banner-background-list) using ($rest...) {
+        //     $key: list.nth($rest, 1);
+        //     // $index: list.index($banner-background-list, $key);
+        //     #{$key} {
+        //       background-image: url('/static/banner/bg-1.png');
+        //       // background-image: url('/static/images/san.png');
+        //     }
+        //   }
+        // }
       }
     }
 

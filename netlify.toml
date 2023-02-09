@@ -1,9 +1,13 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-  [[headers]]
+[build]
+command = "npm run build"
+ublish = ".next"
+
+[[headers]]
   for = "/_next/image/*"
 
-  [headers.values]
+[headers.values]
     Strict-Transport-Security = "max-age=31536000"
     X-Test = 'foobar'
