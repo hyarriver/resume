@@ -68,7 +68,7 @@ const Contact: React.FC<IContactProps> = () => {
             display: 'inline-block',
           }}
         >
-          <img className="vam" src={require(`@images/wx-qrcode.jpg`)} alt="" />
+          <img className="vam" src={require(`@images/wx-qrcode.png`)} alt="" />
         </Modal>
         {/* <div id="SOHUCS"></div>
         <script

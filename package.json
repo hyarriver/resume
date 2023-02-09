@@ -15,7 +15,7 @@
     "predeploy": "yarn export",
     "deploy": "yarn predeploy && gh-pages -d ./out"
   },
-  "homepage": "https://liuguanhua.github.io",
+  "homepage": "https://github.com/hyarriver",
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.30.4",
     "@svgr/webpack": "^5.4.0",
