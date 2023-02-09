@@ -85,8 +85,8 @@ const baseInfo: {
     icon: {
       component: SvgLinks,
     },
-    links: 'http://lghayy.zcool.com.cn/',
-    title: 'lghayy.zcool.com.cn',
+    links: 'http://hyarriver@163.com/',
+    title: 'hyarriver@163.com',
   },
 ];
 

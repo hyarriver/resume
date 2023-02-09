@@ -48,7 +48,7 @@ const Contact: React.FC<IContactProps> = () => {
             </a>
           </li>
           <li className="col-6 col-lg-4">
-            <a href="mailto:lghayy@foxmail.com">
+            <a href="mailto:hyarriver@163.com">
               <SvgIcon component={SvgEmail} />
               <span>hyarriver@163.com</span>
             </a>
